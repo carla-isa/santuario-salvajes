@@ -1,0 +1,129 @@
+$verde:#A7D489;
+$natural:#F6F6DB;
+$marron:#CAAD7E;
+
+$texto: 'Montserrat', sans-serif, 15px;
+
+$anchoForm:800px;
+
+
+.index{background-image: url("../img/fondoIndex.png");}
+.nosotros{background-image: url("../img/nosotrosFondo.png");}
+.voluntarios{background-image: url("../img/fondoVoluntarios.png");}
+.amadrina{background-image: url("../img/fondoAmadrina.png");}
+.colabora{background-image: url("../img/fondoColabora.png");}
+.contacto{background-image: url("../img/fondoContacto.png");}
+
+#nav{ height: 150px;
+      padding: 15px;
+      margin: 5px;}
+
+#nav__logo{padding-left: 50px;
+     	   margin-left: 50px;}
+
+#nav__button{background-color: $verde;
+        	 border-color: transparent;}
+
+#nav__menu{color:$verde;
+          font-family: 'Oswald', sans-serif;
+          text-transform:uppercase;
+          font-weight:500;
+          font-size: 15pt;
+          text-decoration: none;
+          padding: 15px;
+          margin:10px;}
+
+#nav__menu--hover a:hover{ @extend #nav__menu;
+             color:$marron;}
+            
+#footer{padding-top: 20px;
+		margin-left:50px;
+		justify-content:center;}
+
+#footer__links{padding: 5px;
+        	   margin: 5px;}
+
+.texto{font-family: 'Montserrat', sans-serif;
+       font-weight: 500;
+       font-size: 18px;
+       color:$marron;
+       text-align: center;
+       padding-top:50px;
+       padding-left:200px;}
+
+#btn{font-family: 'Montserrat', sans-serif;
+     font-weight: 700;
+     font-size: 18px;
+     text-transform: uppercase;
+     text-decoration: none;
+     color:$natural;
+     background-color: #A7D489;
+     margin-left:335px;
+     padding: 15px;
+     border-color: transparent;}
+
+#contenido{height: 400px}
+#contenido__titulo{font-family: 'Oswald', sans-serif;
+    			         text-align: right;
+    			         font-weight: 600;
+    			         font-size: 25px;
+    			         text-transform: uppercase;
+    			         color:$verde;
+    			         text-align: left;
+    			         padding-left: 50px;
+    			         padding-top:20px;
+    			         letter-spacing: 2px;}
+#contenido__texto{font-family: $texto;
+                  font-weight:500;
+           		    color:$marron;
+           		    text-align: justify;
+           		    padding-top:10px;
+           		    padding-left:50px;}
+#contenido__subtitulo{font-family: 'Montserrat', sans-serif;
+   					          font-weight: 700;
+   					          font-weight: bold;
+   					          font-size: 15px;
+   					          color:$marron;
+   					          text-align: justify;
+   					          padding-top:10px;
+   					          margin-left: 15px;}
+
+#formulario{background-color:$natural;
+			width: $anchoForm/2;}
+
+#formulario__btn{font-family: 'Montserrat', sans-serif;
+           		 font-weight: 700;
+           		 font-size: 15px;
+           		 text-transform: uppercase;
+           		 text-decoration: none;
+           		 letter-spacing: 1px;
+           		 word-spacing: 2px;
+           		 color:white;
+           		 background-color: $verde;
+           		 margin-top:10px;
+           		 margin-left:30px;
+           		 padding: 15px;
+           		 border-color: transparent;}
+#formulario__datos{font-family: 'Montserrat', sans-serif;
+           		   font-weight: 500;
+           		   font-size: 12px;
+           		   text-transform: uppercase;
+           		   color:$verde;
+           		   text-align: left;
+           		   padding:5px;
+           		   margin:5px;}
+#formulario__spaces{@extend #formulario__datos;
+      				      text-decoration: none;
+      				      color:$marron;
+      				      background-color: #F6F6DB;
+      				      padding: 10px;
+      				      border-color: transparent;}
+#formulario__spaces--contacto{font-family: 'Montserrat', sans-serif;
+           					  font-weight: 500;
+           					  font-size: 12px;
+           					  text-transform: uppercase;
+           					  color:$marron;
+           					  text-align: left;
+           					  padding:5px;
+           					  margin:5px;
+           					  border-color: $marron;}

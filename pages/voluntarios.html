@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Colaborá postulándote como voluntario">
+    <meta name="keywords"  content="Santuario, animales, antiespecista, voluntario, colaborar">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Voluntariado en el Santuario</title>
+</head>
+
+<body class="voluntarios">
+
+  <!--NAV/MENÚ-->
+  <div class="row">
+    <div class="col-lg-12 col-xs-12 col-sm-12">
+      <nav class="navbar navbar-expand-lg navbar-light" id="nav">
+        <a class="navbar-brand" href="../index.html"><img id="nav__logo" src="../img/logoHeader.png" name="Santuario Salvajes"></a>
+        <button class="navbar-toggler" id="nav__button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto" id="nav__menu--hover">
+            <li class="nav-item">
+              <a class="nav-link active" id="nav__menu" href="../pages/nosotros.html">Nosotrxs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav__menu" href="../pages/voluntarios.html">Voluntarixs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav__menu" href="../pages/amadrina.html">Amadriná</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav__menu" href="../pages/colabora.html">Colaborá</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav__menu" href="../pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>  
+
+<!--CONTENIDO-->
+<div class="row" id="contenido">
+  <div class="col-lg-7 col-xs-12">
+    <h3 id="contenido__titulo">postulate como voluntarix</h3>
+    <p class="text-left" id="contenido__texto">En cada una de las etapas del santuario, el voluntariado ha sido muy importante y se ha ido transformando para adaptarse a sus necesidades. En éste momento nos encontramos en la búsqueda de voluntarixs que se comprometan a venir una vez por semana, un día fijo. </p>
+		<p class="text-left" id="contenido__texto">Para postularte como voluntario debés ser una persona responsable y comprometida y mayores de 18 años. Las tareas son muy diversas, desde limpiar recipientes y tachos de agua, hasta realizar tareas simples de mantenimiento, algunas más pesadas que otras. La jornada comienza a las 10am.</p>
+		<p class="text-left" id="contenido__texto"s>Recordamos que a los voluntariados se viene a trabajar para el espacio de los animales, colaborando con los cuidadores que se encargan de ellos todos los días. </p>
+				<ul id="contenido__texto">
+					<li>No a pasar el día.</li>
+					<li>No a sacarse fotos.</li>
+					<li>No a venir y no ayudar.</li>
+					<li>No a invadir el espacio personal de los animales que no buscan contacto humano.</li>
+				</ul>
+    <div class="container">
+    <!-- Button to Open the Modal -->
+    <button type="button" id="formulario__btn" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    Completá el formulario</button>
+    <!-- The Modal -->
+      <div class="modal fade" id="myModal">
+      <div class="modal-dialog">
+      <div class="modal-content" id="formulario">
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title" id="contenido__titulo">Formulario Voluntarios</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <!-- Modal body -->
+        <div class="modal-body">
+          <label for="nombre" id="formulario__datos">Nombre &nbsp<input id="formulario__spaces" type="text" name="nombre" value="Nombre"></label><br><br>
+            <label id="formulario__datos">Hombre<input id="formulario__spaces" type="radio" name="sexo" value="Hombre"></label> &nbsp
+            <label id="formulario__datos">Mujer<input id="formulario__spaces" type="radio" name="sexo" value="Mujer"></label>&nbsp
+            <label id="formulario__datos">Otrx<input id="formulario__spaces" type="radio" name="sexo" value="Otrx"></label>&nbsp
+            <br><br>
+            <label id="formulario__datos">Recibir Newsletter <input id="formulario__spaces" type="checkbox" name="acepta" value="1"></label><br><br>
+            <label id="formulario__datos">E Mail <input id="formulario__spaces" type="text" name="email" value="E mail"></label>
+            <label id="formulario__datos">Mensaje <br><input id="formulario__spaces" type="textarea" value="Mensaje"></label><br>
+            <input id="formulario__spaces" type="reset" value="Limpiar">
+        </div>
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button id="formulario__btn" type="button" class="btn btn-danger" data-dismiss="modal"><input type="submit" value="Enviar" id="formulario__spaces"></button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div> 
+
+  </div>
+  <div class="col-lg-5 col-xs-12">
+    <img src="../img/voluntarios.png" class="img-fluid" alt="Responsive image">
+  </div>
+</div>
+
+<!--FOOTER-->
+<div class="col-lg-6 col-xs-12">
+<footer id="footer">
+<ul class="nav justify-content-end">
+  <li class="nav-item">
+    <a class="nav-link active" href="https://www.facebook.com/santuariosalvajes" id="footer__links"><img src="../img/facebook.png"></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.instagram.com/santuariosalvajes/" id="footer__links"><img src="../img/instagram.png"></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://twitter.com/lxssalvajes" id="footer__links"><img src="../img/twitter.png"></a>
+  </li>
+</ul>
+</footer>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

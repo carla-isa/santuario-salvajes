@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Colaborá amadrinando a alguno de nuestros rescatados con un aporte voluntario mensual">
+    <meta name="keywords"  content="Santuario, animales, antiespecista, amadrina, colabora">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Madrinazgo</title>
+</head>
+
+<body class="amadrina">
+
+  <!--NAV/MENÚ-->
+  <div class="row">
+    <div class="col-lg-12 col-xs-12 col-sm-12">
+      <nav class="navbar navbar-expand-lg navbar-light" id="nav">
+        <a class="navbar-brand" href="../index.html"><img id="nav__logo" src="../img/logoHeader.png" name="Santuario Salvajes"></a>
+        <button class="navbar-toggler" id="nav__button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto" id="nav__menu--hover">
+            <li class="nav-item">
+              <a class="nav-link active" id="nav__menu" href="../pages/nosotros.html">Nosotrxs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav__menu" href="../pages/voluntarios.html">Voluntarixs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav__menu" href="../pages/amadrina.html">Amadriná</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav__menu" href="../pages/colabora.html">Colaborá</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav__menu" href="../pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>  
+
+
+<div class="row" style="height: 400px">
+  <div class="col-lg-4 col-xs-12">
+    <img src="../img/amadrina.png" class="img-fluid" alt="Responsive image">
+  </div>
+  <div class="col-lg-6 col-xs-12">
+    <div class="container">
+    <div id="carouselContent" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active text-center p-4">
+              <h6 id="contenido__subtitulo">Qué es?</h6>
+                 <p class="text-left" id="contenido__texto">Amadrinar es hacer el compromiso simbólico de ayudar a uno de los rescatados del santuario a tener una buena vida, a través de una donación mensual. El monto mínimo es $500. Los Padrinos y Madrinas son la base de financiamiento del Santuario, sus donaciones son las que nos permiten seguir rescatando animales y darles alimento todos los días, refugio adecuado, atención veterinaria y una vida digna.</p>
+            </div>
+            <div class="carousel-item text-center p-4">
+                 <h6 id="contenido__subtitulo">Qué es?</h6>
+                 <p class="text-left" id="contenido__texto">Amadrinar es muy sencillo. Una vez conoces a un rescatado que te haya robado el corazón, ingresas a nuestro sitio web y llenas el formulario. Tu donación no solo ayudará al habitante que escogiste, sino que ayudará a todos los habitantes del santuario!</p>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselContent" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+<div class="container">
+    <!-- Button to Open the Modal -->
+    <button type="button" id="formulario__btn" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    Completá el formulario</button>
+    <!-- The Modal -->
+      <div class="modal fade" id="myModal">
+      <div class="modal-dialog">
+      <div class="modal-content" id="formulario">
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title" id="contenido__titulo">Amadriná</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <!-- Modal body -->
+        <div class="modal-body">
+          <label for="nombre" id="formulario__datos">Nombre &nbsp<input id="formulario__spaces" type="text" name="nombre" value="Nombre"></label><br><br>
+            <label id="formulario__datos">Hombre<input id="formulario__spaces" type="radio" name="sexo" value="Hombre"></label> &nbsp
+            <label id="formulario__datos">Mujer<input id="formulario__spaces" type="radio" name="sexo" value="Mujer"></label>&nbsp
+            <label id="formulario__datos">Otrx<input id="formulario__spaces" type="radio" name="sexo" value="Otrx"></label>&nbsp
+            <br><br>
+            <label id="formulario__datos">Recibir Newsletter <input id="formulario__spaces" type="checkbox" name="acepta" value="1"></label><br><br>
+            <label id="formulario__datos">E Mail <input id="formulario__spaces" type="text" name="email" value="E mail"></label>
+            <label id="formulario__datos">Mensaje <br><input id="formulario__spaces" type="textarea" value="Mensaje"></label><br>
+            <form>
+            <h6 id="contenido__subtitulo">Elegí a tu ahijadx</h6>
+            <select id="formulario__datos" name="Ahijadx">
+            <option value="Barry">Barry</option>
+            <option value="Rocky">Rocky</option>
+            <option value="Bombón">Bombón</option>
+            <option value="Burbuja">Burbuja</option>
+            <option value="Bellota">Bellota</option>
+          </select>
+        </form><br>
+            <input id="formulario__spaces" type="reset" value="Limpiar">
+        </div>
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button id="formulario__spaces" type="button" class="btn btn-danger" data-dismiss="modal"><input id="formulario__spaces" type="submit" value="Enviar"></button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div> 
+
+
+<!--FOOTER-->
+<div class="col-lg-6 col-xs-12">
+<footer id="footer">
+<ul class="nav justify-content-end">
+  <li class="nav-item">
+    <a class="nav-link active" href="https://www.facebook.com/santuariosalvajes" id="footer__links"><img src="../img/facebook.png"></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.instagram.com/santuariosalvajes/" id="footer__links"><img src="../img/instagram.png"></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://twitter.com/lxssalvajes" id="footer__links"><img src="../img/twitter.png"></a>
+  </li>
+</ul>
+</footer>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
