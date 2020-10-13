@@ -1,0 +1,180 @@
+.index {
+  background-image: url("../img/fondoIndex.png");
+}
+
+.nosotros {
+  background-image: url("../img/nosotrosFondo.png");
+}
+
+.voluntarios {
+  background-image: url("../img/fondoVoluntarios.png");
+}
+
+.amadrina {
+  background-image: url("../img/fondoAmadrina.png");
+}
+
+.colabora {
+  background-image: url("../img/fondoColabora.png");
+}
+
+.contacto {
+  background-image: url("../img/fondoContacto.png");
+}
+
+#nav {
+  height: 150px;
+  padding: 15px;
+  margin: 5px;
+}
+
+#nav__logo {
+  padding-left: 50px;
+  margin-left: 50px;
+}
+
+#nav__button {
+  background-color: #A7D489;
+  border-color: transparent;
+}
+
+#nav__menu, #nav__menu--hover a:hover {
+  color: #A7D489;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15pt;
+  text-decoration: none;
+  padding: 15px;
+  margin: 10px;
+}
+
+#nav__menu--hover a:hover {
+  color: #CAAD7E;
+}
+
+#footer {
+  padding-top: 20px;
+  margin-left: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#footer__links {
+  padding: 5px;
+  margin: 5px;
+}
+
+.texto {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #CAAD7E;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 200px;
+}
+
+#btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #F6F6DB;
+  background-color: #A7D489;
+  margin-left: 335px;
+  padding: 15px;
+  border-color: transparent;
+}
+
+#contenido {
+  height: 400px;
+}
+
+#contenido__titulo {
+  font-family: 'Oswald', sans-serif;
+  text-align: right;
+  font-weight: 600;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #A7D489;
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 20px;
+  letter-spacing: 2px;
+}
+
+#contenido__texto {
+  font-family: "Montserrat", sans-serif, 15px;
+  font-weight: 500;
+  color: #CAAD7E;
+  text-align: justify;
+  padding-top: 10px;
+  padding-left: 50px;
+}
+
+#contenido__subtitulo {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-weight: bold;
+  font-size: 15px;
+  color: #CAAD7E;
+  text-align: justify;
+  padding-top: 10px;
+  margin-left: 15px;
+}
+
+#formulario {
+  background-color: #F6F6DB;
+  width: 400px;
+}
+
+#formulario__btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  color: white;
+  background-color: #A7D489;
+  margin-top: 10px;
+  margin-left: 30px;
+  padding: 15px;
+  border-color: transparent;
+}
+
+#formulario__datos, #formulario__spaces {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #A7D489;
+  text-align: left;
+  padding: 5px;
+  margin: 5px;
+}
+
+#formulario__spaces {
+  text-decoration: none;
+  color: #CAAD7E;
+  background-color: #F6F6DB;
+  padding: 10px;
+  border-color: transparent;
+}
+
+#formulario__spaces--contacto {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #CAAD7E;
+  text-align: left;
+  padding: 5px;
+  margin: 5px;
+  border-color: #CAAD7E;
+}
+/*# sourceMappingURL=style.css.map */
